@@ -1,0 +1,16 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Hackerspace" 
+    SampleProperty="Sample Text Property Value">
+    
+    <local:MainViewModel.Items>
+        <local:CalendarViewModel eventTitle="design one" eventDate="Maecenas praesent accumsan bibendum" />
+        <local:CalendarViewModel eventTitle="design two" eventDate="Dictumst eleifend facilisi faucibus" />
+        <local:CalendarViewModel eventTitle="design three" eventDate="Habitant inceptos interdum lobortis" />
+        <local:CalendarViewModel eventTitle="design four" eventDate="Nascetur pharetra placerat pulvinar" />
+        <local:CalendarViewModel eventTitle="design five" eventDate="Sagittis senectus sociosqu suscipit" />
+        <local:CalendarViewModel eventTitle="design six" eventDate="Torquent ultrices vehicula volutpat" />
+    </local:MainViewModel.Items>
+    
+</local:MainViewModel>
